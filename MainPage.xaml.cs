@@ -9,6 +9,8 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
+
+		new AppThemeColor { Light = new Color(0, 0, 0, 1), Dark = new Color(1, 1, 1, 1) }.GetBinding();
 	}
 
 	private void OnCounterClicked(object? sender, EventArgs e)
