@@ -1,4 +1,6 @@
-﻿namespace maui_set_binding;
+﻿using CommunityToolkit.Maui;
+
+namespace maui_set_binding;
 
 public partial class MainPage : ContentPage
 {
